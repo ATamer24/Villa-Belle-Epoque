@@ -79,7 +79,6 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .backgroundfigure{
@@ -226,7 +225,4 @@ a:active {
     border-radius: 20px;
     width: 500px;
     height: auto;
-}
-ul{
-    color: var(--secondary_color);
 }

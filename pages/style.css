@@ -39,12 +39,16 @@ a:active {
     text-decoration: none;
 }
 .nav-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--primary_color);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 2%;
-    padding-right:2% ;
-}
+    padding-left: 0%;
+} 
+
 .links-container{
     padding-top:30px ;
     font-size: 16px;
@@ -75,6 +79,7 @@ a:active {
 
 .main-container{
     width: 100%;
+    margin-top: 50px;
     height: 720px;
     display: flex;
     flex-direction: row;
@@ -166,6 +171,7 @@ a:active {
 
 /*ABOUT US*/
 .container-AU{
+    margin-top:60px;
     display: flex;
     flex-direction: column;
     justify-content: center;

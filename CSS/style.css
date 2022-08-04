@@ -28,7 +28,7 @@ a:link {
 a:visited {
     text-decoration: none;
 }
-  
+
 a.links:hover {
     transform-origin: bottom left;
     text-decoration: underline var(--Tertiary_color);
@@ -48,7 +48,6 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 0%;
     z-index: 1;
 } 
 .footer{
@@ -66,9 +65,9 @@ a:active {
 }
 
 .links-container{
-    padding-top:30px ;
-    font-size: 16px;
-    width:35%;
+    padding-top:2% ;
+    font-size:0.5em;
+    width:40vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -82,7 +81,7 @@ a:active {
     padding-top: 20px;
 }
 .cropimage{
-    width: 30px;
+    width: 1.5em;
     height: auto;
     border-radius: 15px;
 }
@@ -187,28 +186,29 @@ a:active {
     margin-top:60px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 .cont1-AU{
     background-color: var(--secondary_color);
     width: 100%;
+    height: 12vw;
     padding-top: 1%;
-    height: 150px;
+    padding-bottom:2%;
     text-align: center;
 }
 
-
+/*ABOUT US HEADER*/ 
 .text-AU{
     color: var(--primary_color);
     font-family: "Roboto",sans-serif;
 }
 
-.bodytext-AU{
+ .bodytext-AU{
     color: var(--primary_color);
     font-family: "Roboto",sans-serif;
-}
+} 
 
+/*Div text*/
 .text-AU2{
     color: var(--secondary_color);
     font-family: "Roboto",sans-serif;
@@ -219,20 +219,20 @@ a:active {
     font-family: "Roboto",sans-serif;
 }
 .header-AU{
-    font-size: 40px;
+    font-size: 3vw;
 }
 .header-AU::first-letter{
-    font-size: 80px;
+    font-size: 5vw;
     font-family: "Century",sans-serif;
 }
 
 .par-AU{
-    font-size: 20px;
-    padding-top: 20px;
+    font-size: 2vw;
+    padding-top: 2vw;
 }
 
 .par-AU::first-letter{
-    font-size: 40px;
+    font-size: 4.5vw;
     font-family: "Century",sans-serif;
 }
 .sub-AU{
@@ -242,8 +242,8 @@ a:active {
     width: 80%;
     margin-left: 10%;
     border-radius: 10px;
-    margin-top: 5%;
-    margin-bottom: 20px;
+    margin-top: 10vw;
+    margin-bottom: 2vw;
 }
 
 
@@ -259,15 +259,9 @@ a:active {
     opacity: 1;
   }
 
-/* .bodytext-AU2:hover{
-    background-color: var(--secondary_color);
-    color: var(--primary_color);
-} */
-
 .text-holder{
-    /* background-color: var(--Tertiary_color); */
     width: 50%;
-    height: 600px;
+    height: 58vw;
     margin-top: 8%;
     padding-left: 2%;
     padding-right: 2%;
@@ -275,21 +269,21 @@ a:active {
     display: flex;
     flex-direction:column;
     justify-content: center;
+    border: 2px solid red;
 }
 
 #th-height{
     margin-top: 20%;
-    height: 400px;
+    height: 39vh;
 }
 
 .img-holder{
-    /* border: 1px var(--secondary_color) solid; */
     border-radius: 20px;
 }
 
 .sub-img{
     border-radius: 20px;
-    width: 500px;
+    width: 49vw;
     height: auto;
 }
 

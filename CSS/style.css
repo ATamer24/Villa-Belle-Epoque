@@ -49,6 +49,7 @@ a:active {
     flex-direction: row;
     justify-content: space-between;
     padding-left: 0%;
+    z-index: 1;
 } 
 .footer{
     width: 100%;
@@ -229,6 +230,7 @@ a:active {
     font-size: 20px;
     padding-top: 20px;
 }
+
 .par-AU::first-letter{
     font-size: 40px;
     font-family: "Century",sans-serif;
@@ -244,6 +246,18 @@ a:active {
     margin-bottom: 20px;
 }
 
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
 
 /* .bodytext-AU2:hover{
     background-color: var(--secondary_color);

@@ -102,8 +102,6 @@ li{
 .navimg{
     width: 5.5vw;
     height: auto;
-
-    /* border: 2px red solid; */
 }
 
 .main-container{
@@ -133,7 +131,6 @@ li{
 } 
 
 .dataholder{
-    border: red solid 1px;
     width: 100%;
     height: 25vw;
     margin-top: 0.3vw;
@@ -193,7 +190,6 @@ li{
     text-align: center;
     font-size: 0.9vw;
 }
-@media
 
 
 /*ABOUT US*/

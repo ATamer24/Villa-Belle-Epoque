@@ -396,10 +396,68 @@ label{
     border-bottom: 5px solid var(--secondary_color);
 }
 
+
+/*REVIEWS*/
+.revcont{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.revheader{
+    font-size: 8vw;
+    color: var(--secondary_color) ;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    margin-bottom:5vw ;
+}
+.review{   
+    padding-top: 2vh;
+    padding-bottom:2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.revcard{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 3vh;
+    margin-left: 3vw;
+    width: 15%;
+    height: 38vh;
+    background-color: var(--secondary_color);
+    color: var(--primary_color);
+    font-family: "Roboto",sans-serif;
+    border-radius: 10px;
+}
+
+.revcard:hover{
+    transform: scale(1.1);
+}
+.revcardrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.revcardrate{
+    justify-content: center;
+}
+.revname{
+    font-size: 1.8vw;
+}
+.revopt{
+    font-size: 1.2vw;
+    font-weight: 700;
+}
+.revpar{
+    font-size: 1vw;
+}
+.stars{
+    width: 100px;
+    height: auto;
+}
 @media(max-width: 1075px){
-    .main-container{
-        
-    }
     .rowflex{
         display: flex;
         flex-direction: column;
@@ -431,3 +489,6 @@ label{
         text-align: center;
     }
 }
+
+
+

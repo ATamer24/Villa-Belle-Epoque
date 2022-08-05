@@ -33,7 +33,7 @@ a.links:hover {
     transform-origin: bottom left;
     text-decoration: underline var(--Tertiary_color);
     color: var(--Tertiary_color);
-    text-underline-offset: 0.3em;
+    text-underline-offset: 0.5em;
     transform: scale(1.3);
 }
 
@@ -49,7 +49,19 @@ a:active {
     flex-direction: row;
     justify-content: space-between;
     z-index: 1;
-} 
+}
+
+/* @media(max-width: 760px){
+.nav-container{
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container{
+    display: none;
+}
+}  */
 .footer{
     width: 100%;
     background-color: var(--primary_color);
@@ -67,18 +79,22 @@ a:active {
 .links-container{
     padding-top:2% ;
     font-size:1em;
-    width:45vw;
+    width:50vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    /* border: 2px solid red; */
 }
-
+li{
+    list-style-type: none;
+}
 .sm-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 4.5%;
     padding-top: 20px;
+    margin-right: 1vw;
 }
 .cropimage{
     width: 1.5em;
@@ -269,7 +285,7 @@ a:active {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 #th-height{
@@ -293,9 +309,11 @@ a:active {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    width: 100vw;
 }
 .resmain{
-    margin-top: 150px;
+    margin-top: 8vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -303,7 +321,8 @@ a:active {
 
 .resform{
     width: 60%;
-    height: 500px;
+    height: 70vh;
+    /* margin-bottom:10vw ; */
     background-color:rgba(237, 230, 219,0.6);
     border-radius: 10px; 
 }
@@ -311,17 +330,27 @@ a:active {
     display: flex;
     flex-direction: column;
 }
+.resbtncont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reschoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
 .rowflex{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .ncont{
-    padding-top:25px ;
-    margin-top: 25px;
+    padding-top:2vw ;
+    margin-top: 2vw;
     margin-left:3px;
-    width: 99%;
-    height: 100px;
+    width: 59vw;
+    height: 10vh;
     border: 2px solid var(--secondary_color);
     border-radius: 5px;
 }
@@ -339,6 +368,8 @@ input{
 input[type=number]{
     border:2px solid var(--secondary_color) ;
     border-radius: 10px;
+    height: 3.5vw;
+    width: 3vw;
 }
 input:focus{
     outline: none;
@@ -346,17 +377,17 @@ input:focus{
 label{
     font-weight: 900;
     color: var(--secondary_color);
-    font-size: 20px;
+    font-size: 2vw;
 }
 #quantity{
     width: 50px;
 }
 .formbtn{
     font-family: 'Roboto',sans-serif;
-    width: 150px;
-    height: 50px;
-    font-size: 20px;
-    margin-top: 25px;
+    width: 12vw;
+    height: 4vw;
+    font-size: 1.6vw;
+    margin-top: 2vw;
     border: none;
     border-radius: 10px;
     background-color: var(--secondary_color);
@@ -368,4 +399,37 @@ label{
 }
 .sborder{
     border-bottom: 5px solid var(--secondary_color);
+}
+
+@media(max-width: 1075px){
+    .rowflex{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .split{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .ncont{
+        height: 30vh;
+    }
+    .resform{
+        margin-top: 5vh;
+        padding-right: 1vh;
+        height: 80vh;
+    }
+    input[type=number]{
+        margin-left: 2vh;
+        margin-top: 2vh;
+    }
+    .colcol{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    label{
+        text-align: center;
+    }
 }

@@ -497,21 +497,17 @@ label{
     margin-top: 2vw;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    /* color: var(--secondary_color);
-    background-color: var(--primaryopc); */
-    /* color: var(--primary_color);
-    background-color: rgba(0, 127, 232, 0.6); */
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
 .cu-hd h1{
-    font-size: 3vw;
+    font-size: 2.5em;
     text-decoration: underline;
     text-underline-offset: 1vw;
 }
 .cu-hd p{
-    font-size: 1.5vw;
-    margin-top: 7vh;
+    font-size: 1.5em;
+    margin-top: 2.2vw;
 }
 .maincardcon{
     display: flex;
@@ -532,7 +528,7 @@ label{
     margin-top: 1vw;
     margin-bottom: 0.5vw;
     font-weight: 800;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .cu-img{
     border: 5px solid var(--secondary_color);
@@ -584,7 +580,18 @@ label{
         margin-left: 15%;
         margin-bottom: 5vw;
     }
-
+    .cucardholder{
+        flex-direction: column;
+    }
+    .cu-card{
+        margin-bottom: 8vw;
+    }
+    .cu-subcont{
+        margin-top: 12vw;
+    }
+    .cu-hd h1{
+        margin-bottom: 10vw;
+    }
 }
 
 

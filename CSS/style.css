@@ -62,16 +62,22 @@ a:active {
 }
 }  */
 .hp-footer{
-    position:relative ;
+    position:fixed ;
     bottom: 0;
 }
+
+.sara{
+    margin-top: 35vw;
+}
+
 .footer{
     width: 100%;
     background-color: var(--primary_color);
 }
+
 .footertext{
     padding-top: 1.8vw;
-    padding-bottom: 1.8vw;
+    padding-bottom: 1.4vw;
     font-size:10px;
     display:flex;
     justify-content: center;
@@ -118,10 +124,6 @@ li{
     justify-content: center;
 }
 
-
-.sara{
-    margin-top: 35vw;
-}
 .backgroundfigure{
     background-image: url(../images/imagebackground222.jpg);
     background-position: center;
@@ -420,7 +422,8 @@ label{
     text-align: center;
     margin-bottom:5vw ;
 }
-.review{   
+.review{  
+    border: 2px solid red; 
     padding-top: 2vh;
     padding-bottom:2vh;
     display: flex;
@@ -434,7 +437,7 @@ label{
     padding: 3vh;
     margin-left: 3vw;
     width: 15%;
-    height: 38vh;
+    height: 18vw;
     background-color: var(--secondary_color);
     color: var(--primary_color);
     font-family: "Roboto",sans-serif;
@@ -453,14 +456,14 @@ label{
     justify-content: center;
 }
 .revname{
-    font-size: 1.8vw;
+    font-size: 1.8em;
 }
 .revopt{
-    font-size: 1.2vw;
+    font-size: 1.3em;
     font-weight: 700;
 }
 .revpar{
-    font-size: 1vw;
+    font-size: 0.9em;
 }
 .stars{
     width: 100px;
@@ -575,15 +578,16 @@ label{
     label{
         text-align: center;
     }
-    /* .revcont{
-        flex-direction: row;
-        justify-content: center;
-        border: 1px solid red;
-    }
     .review{
         flex-direction: column;
-        justify-content: center;
-    } */
+    }
+    .revcard{
+        width: 60%;
+        height:60vw ;
+        margin-left: 15%;
+        margin-bottom: 5vw;
+    }
+
 }
 
 

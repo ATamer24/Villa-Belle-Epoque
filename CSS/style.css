@@ -4,6 +4,7 @@
 }
 :root{
     --primary_color: rgb(237, 230, 219);
+    --primaryopc: rgba(237, 230, 219, 0.6);
     --secondary_color:rgb(0, 4, 42);
     --Tertiary_color: rgba(0, 127, 232, 0.8);
 }
@@ -60,6 +61,10 @@ a:active {
     display: none;
 }
 }  */
+.hp-footer{
+    position:relative ;
+    bottom: 0;
+}
 .footer{
     width: 100%;
     background-color: var(--primary_color);
@@ -113,6 +118,10 @@ li{
     justify-content: center;
 }
 
+
+.sara{
+    margin-top: 35vw;
+}
 .backgroundfigure{
     background-image: url(../images/imagebackground222.jpg);
     background-position: center;
@@ -203,7 +212,7 @@ li{
     background-color: var(--secondary_color);
     width: 100%;
     height: 12vw;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom:2%;
     text-align: center;
 }
@@ -318,7 +327,7 @@ li{
     width: 60%;
     height: 70vh;
     /* margin-bottom:10vw ; */
-    background-color:rgba(237, 230, 219,0.6);
+    background-color:var(--primaryopc);
     border-radius: 10px; 
 }
 .colflex{
@@ -457,6 +466,84 @@ label{
     width: 100px;
     height: auto;
 }
+/************************************************/
+.cu-cont{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 6vw;
+}
+.cu-subcont{
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    width: 60%;
+    border-radius: 5px;
+    opacity: 0.7;
+    
+}
+.cu-bg{
+    background: url(../images/cu1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.cu-hd{
+    margin-top: 2vw;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    /* color: var(--secondary_color);
+    background-color: var(--primaryopc); */
+    /* color: var(--primary_color);
+    background-color: rgba(0, 127, 232, 0.6); */
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.cu-hd h1{
+    font-size: 3vw;
+    text-decoration: underline;
+    text-underline-offset: 1vw;
+}
+.cu-hd p{
+    font-size: 1.5vw;
+    margin-top: 7vh;
+}
+.maincardcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cucardholder{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: var(--primary_color);
+    color: var(--secondary_color);
+    margin-top: 3vw;
+    padding-bottom: 1vw;
+}
+.cuhd{
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.cu-img{
+    border: 5px solid var(--secondary_color);
+    border-radius: 100px;
+    width: 5vw;
+    height: auto;
+    padding: 1vw;
+}
+.cu-card{
+    text-align: center;
+}
 @media(max-width: 1075px){
     .rowflex{
         display: flex;
@@ -488,6 +575,15 @@ label{
     label{
         text-align: center;
     }
+    /* .revcont{
+        flex-direction: row;
+        justify-content: center;
+        border: 1px solid red;
+    }
+    .review{
+        flex-direction: column;
+        justify-content: center;
+    } */
 }
 
 

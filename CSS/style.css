@@ -92,7 +92,6 @@ a:active {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border: 2px solid red; */
 }
 li{
     list-style-type: none;
@@ -291,7 +290,6 @@ li{
     display: flex;
     flex-direction:column;
     justify-content: center;
-    /* border: 2px solid red; */
 }
 
 #th-height{
@@ -423,7 +421,6 @@ label{
     margin-bottom:5vw ;
 }
 .review{  
-    border: 2px solid red; 
     padding-top: 2vh;
     padding-bottom:2vh;
     display: flex;
